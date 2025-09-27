@@ -1,0 +1,26 @@
+crypto-portfolio-api/
+├── cmd/
+│   └── server/
+│       └── main.go
+├── internal/
+│   ├── api/
+│   │   ├── handlers/
+│   │   ├── middleware/
+│   │   └── routes/
+│   ├── config/
+│   ├── models/
+│   ├── repository/
+│   ├── services/
+│   └── websocket/
+├── pkg/
+│   ├── database/
+│   ├── redis/
+│   └── utils/
+├── migrations/
+├── docs/
+├── docker-compose.yml
+├── Dockerfile
+├── go.mod
+├── go.sum
+├── Makefile
+└── README.md
